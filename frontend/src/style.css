@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #61646b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+​ * {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab,
+    #23d57c,
+    #82d523,
+    #c9d523
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100vh;
+
+  min-height: 100vh;
+  display: block;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+​.display-linebreak {
+  white-space: pre;
+}
+navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+}
+
+label {
+  display: block;
+  margin: auto;
+}
+​ button {
+  display: block;
+  margin: auto;
+}
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-inner {
+  animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg) scale(0.8) translateY(25%);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0) scale(1) translateY(0);
+  }
+}
+label,
+h3,
+p {
+  color: #444242;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(2px);
+  font: white;
+  border-radius: 5px;
+}
+.auth-inner {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  width: 600px;
+  margin: auto;
+  margin-top: 5%;
+
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.displayContainer {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  margin-top: 2%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+​ div.auth-inner.responsive {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}

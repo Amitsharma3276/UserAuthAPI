@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> test suite should match the snapshot 1`] = `"<div><div class=\\"container displayContainer\\" style=\\"height:92vh\\"><center><h1>Welcome blank</h1></center><p align=\\"right\\">blank</p><a href=\\"/login\\"><button class=\\"nav-link\\" to=\\"/login\\">Logout</button></a><br/><center><h2>These are the vaccination centers we found near you</h2></center><h3>Vaccinations Centers : </h3><div></div></div></div>"`;
